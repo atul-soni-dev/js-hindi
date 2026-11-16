@@ -28,3 +28,26 @@ const myfunction=function(){
     
 }
 console.log(typeof id)
+
+//************###################**********************
+
+// Stack(Primitive), Heap (Non primitive)
+
+let myname="Atul soni"
+let anothername=myname
+anothername="hitsh choudhary"
+console.log(myname)
+console.log(anothername)
+
+let userone={
+    email:"atul@gmail.com",
+    upi:"user@ybu"
+}
+
+let usertwo=userone
+
+userone.email="atul@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
